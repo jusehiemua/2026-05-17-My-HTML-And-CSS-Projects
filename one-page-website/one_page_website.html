@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sleek Motorbikes is a one-page motorcycle website featuring stylish bikes, photos, video, and a contact form.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleek Motorbikes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/javascript.js" defer></script>
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#photos">PHOTOS</a>
+            <a href="#video">VIDEO</a>
+            <a href="#contact">CONTACT US</a>
+        </nav>
+
+        <div class="hero">
+            <h1>Sleek Motorbikes</h1>
+            <p class="tagline">Power, style, and freedom on two wheels.</p>
+            <p>
+                Welcome to <strong>Sleek Motorbikes</strong>, a one-page website created for motorcycle lovers.
+                Our fictional brand celebrates smooth design, strong engines, and the excitement of the open road.
+            </p>
+            <p class="website-url">Website: sleek-motorbikes.com</p>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Sleek Motorbikes Inc. is a fictional motorcycle company focused on stylish, modern, and powerful bikes.
+                Whether you enjoy sport bikes, cruisers, or futuristic designs, our goal is to celebrate motorcycles
+                that look sharp and perform beautifully.
+            </p>
+            <p>
+                This website is built as a beginner-friendly HTML, CSS, and JavaScript project. It includes navigation
+                bookmarks, images, a video section, and a contact form.
+            </p>
+        </section>
+
+        <section id="photos">
+            <h2>Motorbike Photo Gallery</h2>
+            <p>
+                Below are sample motorbike images for this assignment. Each image uses an &lt;img&gt; tag.
+            </p>
+
+            <div class="gallery">
+                <img src="images/motorbike_01.png" alt="Crimson Cruiser motorbike">
+                <img src="images/motorbike_02.png" alt="Midnight Racer motorbike">
+                <img src="images/motorbike_03.png" alt="Emerald Storm motorbike">
+                <img src="images/motorbike_04.png" alt="Golden Bullet motorbike">
+                <img src="images/motorbike_05.png" alt="Silver Phantom motorbike">
+                <img src="images/motorbike_06.png" alt="Blue Thunder motorbike">
+                <img src="images/motorbike_07.png" alt="Orange Velocity motorbike">
+                <img src="images/motorbike_08.png" alt="Ruby Roadster motorbike">
+                <img src="images/motorbike_09.png" alt="Cyber Sprint motorbike">
+                <img src="images/motorbike_10.png" alt="Shadow Glide motorbike">
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Featured Motorcycle Video</h2>
+            <p>
+                Watch this embedded motorcycle video using an &lt;iframe&gt; tag.
+            </p>
+
+            <div class="video-box">
+			<!--
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/1n4m3fOXG0U"
+                    title="Motorcycle video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+				-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9OdQ3hwTwlc?si=K--KLPgYYrNPTpG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>				</iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Complete the form below if you want more information about Sleek Motorbikes.
+            </p>
+
+            <form id="contactForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+                <label for="bikeType">Favorite Motorbike Type:</label>
+                <input type="text" id="bikeType" name="bikeType" placeholder="Sport bike, cruiser, touring bike, etc.">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Type your message here"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy;2026 Sleek Motorbikes Inc. All Rights Reserved.</p>
+        <p>1-234-567-8969</p>
+        <p>support@sleekmotorbikes.com</p>
+    </footer>
+
+</body>
+</html>
